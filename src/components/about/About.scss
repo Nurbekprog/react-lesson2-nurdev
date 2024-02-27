@@ -1,0 +1,120 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 156px;
+  margin-bottom: 155px;
+}
+.about-headtext {
+  & h2 {
+    margin-bottom: 21px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #211f54;
+  }
+  & p {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6e7191;
+  }
+}
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 57px 0;
+  align-items: center;
+  gap: 42px;
+}
+.about-cards-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  & h4 {
+    margin-top: 39px;
+    margin-bottom: 12px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #211f54;
+  }
+  & p {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6e7191;
+  }
+  &-img1 {
+    width: 100%;
+    max-width: 240px;
+  }
+  &-img2 {
+    width: 100%;
+    max-width: 270px;
+  }
+  &-img2 {
+    width: 100%;
+    max-width: 258px;
+  }
+}
+.about-btns {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+.about-btns-1 {
+  padding: 26px 38px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  border-radius: 14px;
+  background-color: #0075ff;
+}
+.about-btns-2 {
+  padding: 26px 38px;
+  color: #211f54;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: 1px solid #eff0f6;
+  border-radius: 14px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 0px #14142b0a;
+}
+@media (max-width: 940px) {
+  .about-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 616px) {
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 520px) {
+  .about-btns {
+    flex-direction: column-reverse;
+  }
+}
