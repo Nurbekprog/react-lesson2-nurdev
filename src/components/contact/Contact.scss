@@ -10,6 +10,8 @@
 }
 .contact-text-head {
   h2 {
+    padding-top: 34px;
+    padding-bottom: 32px;
     font-family: Roboto;
     font-size: 48px;
     font-weight: 700;
@@ -19,6 +21,7 @@
     color: #211f54;
   }
   & p {
+    padding: 34px 0 32px 0;
     font-family: Roboto;
     font-size: 21px;
     font-weight: 400;
@@ -30,6 +33,7 @@
 }
 .contact-text-footer {
   & h4 {
+    padding: 55px 0 9px 0;
     font-family: Roboto;
     font-size: 28px;
     font-weight: 700;
@@ -48,6 +52,7 @@
     color: #6e7191;
   }
   & button {
+    margin-top: 30px;
     padding: 26px 38px;
     font-family: Roboto;
     font-size: 18px;
@@ -61,4 +66,7 @@
     color: #211f54;
     background-color: #fff;
   }
+}
+.contact-form {
+  display: flex;
 }

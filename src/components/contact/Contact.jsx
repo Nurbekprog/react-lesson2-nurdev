@@ -25,7 +25,7 @@ function Contact() {
         <div className="contact-form">
           <form>
             <label htmlFor="fullName">Full Name</label>
-            <input type="text" id="fullName" />
+            <input className="inputtext" type="text" id="fullName" />
             <label htmlFor="phoneNum">Phone Number</label>
             <input type="text" id="phoneNum" />
           </form>
