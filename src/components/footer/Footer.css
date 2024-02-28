@@ -1,0 +1,133 @@
+.footer-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 140px 24px;
+  gap: 40px;
+}
+
+.footer-list-item {
+  & h4 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #211F54;
+  }
+
+  & p {
+    padding: 17px 0;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6E7191;
+  }
+
+  & h5 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #211F54;
+  }
+
+  & h6 {
+    padding-top: 10px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #211F54;
+  }
+
+  & button {
+    padding: 26px 38px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    border-radius: 14px;
+    border: none;
+    background-color: #0075FF;
+  }
+}
+
+.footerIcon {
+  width: 100%;
+  max-width: 300px;
+}
+
+.footer-bottom {
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-between;
+  align-items: center;
+  & img {
+    width: 100%;
+    max-width: 178px;
+  }
+
+  & p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #6E7191;
+  }
+}
+
+@media (max-width: 1070px) {
+  .footer-list {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 35px;
+    row-gap: 45px;
+  }
+}
+
+@media (max-width: 831px) {
+  .footer-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+@media (max-width: 686px) {
+  .footer-list {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 340px) {
+  .footer-list {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer-list-item button {
+    padding: 20px 30px;
+  }
+}
+@media (max-width: 961px) {
+  .footer-bottom {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    & p {
+      text-align: center;
+    }
+  }
+}

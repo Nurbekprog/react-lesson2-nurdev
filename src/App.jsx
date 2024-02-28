@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Articles from "./components/articles/Articles";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <Home />
       <About />
       <Services />
-      <Articles/>
-      <Contact/>
+      <Articles />
+      <Contact />
+      <Footer />
     </>
   );
 }
