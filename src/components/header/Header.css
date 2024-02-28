@@ -74,6 +74,9 @@
   .nav-list {
     display: none;
   }
+  .navbar {
+    padding: 20px 10px;
+  }
 }
 @media (max-width: 500px) {
   .nav-right {
